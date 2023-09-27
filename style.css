@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #F8F0E5;
+  background-color: #EBE4D1;
   font-family: 'Muli', sans-serif;
   display: flex;
   flex-direction: column;
@@ -15,8 +15,13 @@ body {
   overflow: hidden;
   margin: 0;
 }
+h1 {
+    text-align: top-center;
+    color:#E55604;
+    margin: 10px 0 20px;
+}
 h3 {
-    color: #64CCC5;
+    color: #26577C;
     margin: 10px 0 20px;
     text-align: center;
   }
@@ -35,7 +40,7 @@ h3 {
     font-size: 16px;
   }
   .tag {
-    background-color: #3085C3;
+    background-color: #FF5F9E;
     color: #fff;
     border-radius: 50px;
     padding: 10px 20px;
@@ -45,5 +50,5 @@ h3 {
   }
   
   .tag.highlight {
-    background-color: #053B50;
+    background-color: #3AA6B9;
   }
